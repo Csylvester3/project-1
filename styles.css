@@ -37,7 +37,7 @@ align-items: stretch;
         grid-column: span 3;
         border-top: 20px;
         background-color: slateblue;
-        text-decoration-color: darkred;
+        text-decoration-color: rgb(26, 12, 12);
     }
     .grid-container > div:nth-child(6) {
         grid-column: span 3;
