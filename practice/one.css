@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    border: 1px solid;
+    grid-template-rows: auto;
+    border-color: black;
+    font-size: 20px;
+    gap: 5px;
+    background-color: darkgrey;
+    padding: auto;
+    outline: 1px;
+    text-align: center;
+    justify-content: center;    
+    margin: 1px;
+    justify-items: stretch;
+    grid-area: "1fr 1fr 1fr";
+    height: 600px;
+    width: 300px 300px
+} 
+.header {
+    display: grid;
+    grid-area: "hd";
+    display: flex;
+    grid-column: span 4;
+    border: 1px solid;
+    
+}
+.box-2 {
+    display: grid;
+    grid-area: "side";
+    column-span: 1fr;
+}
+.box-3 {
+    display:grid;
+    grid-area: "main";
+
+}
+.footer {
+    display: grid;
+    display: "ft";
+}
